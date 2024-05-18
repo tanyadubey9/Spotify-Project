@@ -1,10 +1,7 @@
 body {
-    /* background-color: black; */
-    /* color: white; */
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
     background-color: black;
 }
 
@@ -44,7 +41,7 @@ body {
     display: flex;
 }
 
-.cross {
+.cross{
     display: none;
 }
 
@@ -103,7 +100,7 @@ body {
 .library {
     height: 80vh;
     margin: 5px;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius);                                    
     background-color: var(--lightblack-background-color);
     color: var(--grey-font-color);
     position: relative;
@@ -306,7 +303,7 @@ footer p {
     z-index: 1;
 }
 
-.hamburger {
+.hamburger{
     display: none;
 }
 
@@ -322,11 +319,11 @@ footer p {
 }
 
 .log-in-box {
-    height: 42px;
-    width: 150px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 23px;
+        height: 42px;
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 23px;
 }
 
 .log-in-box h3 {
@@ -334,8 +331,7 @@ footer p {
     font-size: 16px;
     font-weight: 700;
 }
-
-.log-in-box .h3 {
+.log-in-box .h3{
     background-color: transparent;
     border: 0;
 }
@@ -545,8 +541,7 @@ section {
     border: 0;
     margin: 5px;
 }
-
-.listen-option button:hover {
+.listen-option button:hover{
     padding: 11px;
     background-color: #8b8a8a;
 }
@@ -583,7 +578,7 @@ section {
     border-radius: 10px;
 }
 
-.install-app {
+.install-app{
     height: 45px;
     width: 250px;
     margin: 12px;
@@ -591,7 +586,6 @@ section {
     justify-content: space-between;
     align-items: center;
 }
-
 .install-app button {
     border-radius: 20px;
     font-weight: 700;
@@ -599,25 +593,22 @@ section {
     border: 0;
     margin: 5px;
 }
-
-.Premium {
+.Premium{
     background-color: #525050bb;
     padding: 7px;
 }
-
-.Premium:hover {
+.Premium:hover{
     padding: 10px;
     background-color: #5e5c5cbb;
 }
 
-.install {
+.install{
     padding: 5px;
     background-color: transparent;
     color: white;
     box-shadow: 0 0 3px white;
 }
-
-.install:hover {
+.install:hover{
     padding: 8px;
 }
 
@@ -629,8 +620,7 @@ section {
     color: var(--white-font-color);
     border: 0;
 }
-
-.all button:hover {
+.all button:hover{
     padding: 10px;
     background-color: #8b8a8a;
 }
@@ -702,20 +692,20 @@ section {
     background-color: white;
 }
 
-.playback input {
+.playback input{
     width: 43vw;
 }
 
-.play-box {
+.play-box{
     color: var(--white-font-color);
     text-align: center;
 }
 
-.blank {
+.blank{
     height: 99vh;
 }
 
-.songBox {
+.songBox{
     height: 66px;
     width: 15vw;
     display: flex;
@@ -727,12 +717,11 @@ section {
     color: var(--white-font-color);
     margin: 7px;
 }
-
-.songBox img {
+.songBox img{
     width: 77px;
 }
 
-.pointer {
+.pointer{
     cursor: pointer;
 }
 
@@ -744,23 +733,19 @@ section {
         transition: all .33s;
         width: 300px;
     }
-
-    .cross {
+    .cross{
         display: block;
         top: 12px;
-        position: absolute;
-        right: 12px;
-        z-index: 1;
+    position: absolute;
+    right: 12px;
+    z-index: 1;
     }
-
-    .right {
+    .right{
         width: 100vw;
     }
-
-    .hamburger {
+    .hamburger{
         display: block;
     }
-
     .arrow {
         margin: 0;
         display: flex;
@@ -768,38 +753,33 @@ section {
         justify-content: center;
         gap: 11px;
     }
-
     .my-songs ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: 0;
         padding: 5px;
     }
-
-    .artists {
+    .artists{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         overflow: auto;
         margin: 5px;
     }
-}
-
-@media (max-width: 650px) {
-    section {
-        padding: 0;
-    }
-
-    .details {
-        height: 50vh;
-        flex-direction: column;
-    }
-
-    .sign-up-btn {
-        height: 60px;
-    }
-
-    .artists {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
+  }
+  
+  @media (max-width: 650px) {
+      section{
+          padding: 0;
+        }
+        .details{
+            height: 50vh;
+            flex-direction: column;
+        }
+        .sign-up-btn{
+            height: 60px;
+        }
+        .artists{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+  }
